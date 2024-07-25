@@ -10,6 +10,14 @@ Ensure Docker is installed and running on your machine before proceeding.
 
 ## Step-by-Step Instructions
 
+0. **Create the jar file**
+
+```bash
+ mvn clean install
+```
+
+Note: This should create a target folder with an executable jar file in it called **Hotel-0.0.1-SNAPSHOT.jar**.
+
 1. **Build the Docker Image**
 
    Navigate to the root (hotel) directory and run the following command:
